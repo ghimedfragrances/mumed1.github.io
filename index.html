@@ -3,202 +3,2834 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#ffffff">
-<title>GHITMED JEWELRY</title>
+
+<title>GHIMED FRAGRANCES — Authentic Decants</title>
+
+<meta name="description" content="GHIMED FRAGRANCES — Découvrez vos parfums préférés en 5ml et 10ml.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
 <style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
-:root{--black:#111;--gold:#b8944f;--border:#e8e8e5;--white:#fff}
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:'DM Sans',Arial,sans-serif;background:#fff;color:var(--black)}
-a{text-decoration:none;color:inherit} button{font-family:inherit}
-header{position:sticky;top:0;z-index:100;height:76px;background:rgba(255,255,255,.96);backdrop-filter:blur(15px);border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;padding:0 5%}
-.logo{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;letter-spacing:2px}.logo span{color:var(--gold)}
-.nav{display:flex;gap:28px;align-items:center}.nav a{font-size:13px;font-weight:600}.nav a:hover{color:var(--gold)}
-.header-actions{display:flex;align-items:center;gap:10px}.icon-btn{width:42px;height:42px;border:1px solid var(--border);background:white;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:17px}.cart-button{position:relative}.cart-number{position:absolute;top:-3px;right:-2px;width:18px;height:18px;background:var(--black);color:#fff;border-radius:50%;font-size:10px;display:flex;align-items:center;justify-content:center}
-.hero{min-height:570px;background:#f6f5f2;display:grid;grid-template-columns:1fr 1fr;align-items:center;overflow:hidden}.hero-content{padding:70px 8%}.eyebrow{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:18px}.hero h1{font-family:'Playfair Display',serif;font-size:clamp(48px,6vw,78px);line-height:1;font-weight:600;margin-bottom:20px}.hero h1 span{color:var(--gold)}.hero p{max-width:480px;color:#666;line-height:1.8;margin-bottom:30px}.hero-buttons{display:flex;gap:12px;flex-wrap:wrap}.primary-btn,.secondary-btn{padding:14px 24px;border-radius:2px;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;cursor:pointer}.primary-btn{background:var(--black);color:#fff;border:1px solid var(--black)}.secondary-btn{background:transparent;color:var(--black);border:1px solid #ccc}.hero-image{height:570px;background:#eee url('images/hero.jpg') center/cover no-repeat}
-.features{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--border)}.feature{padding:25px 15px;text-align:center;border-right:1px solid var(--border)}.feature:last-child{border-right:0}.feature-icon{font-size:20px;margin-bottom:8px}.feature h4{font-size:12px;margin-bottom:4px}.feature p{font-size:11px;color:#888}
-section{padding:80px 5%}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:32px}.section-title{font-family:'Playfair Display',serif;font-size:38px;font-weight:600}.section-subtitle{color:#888;font-size:13px;margin-top:7px}
-.categories{display:flex;gap:10px;overflow-x:auto;padding-bottom:8px;scrollbar-width:none}.categories::-webkit-scrollbar{display:none}.category{flex:0 0 auto;padding:11px 20px;border:1px solid var(--border);background:#fff;border-radius:30px;font-size:12px;font-weight:600;cursor:pointer}.category.active,.category:hover{background:var(--black);color:#fff;border-color:var(--black)}
-.search-box{display:flex;align-items:center;border:1px solid var(--border);max-width:430px;margin:0 auto 35px;height:48px;padding:0 16px;background:#fff}.search-box span{margin-right:10px}.search-box input{border:0;outline:0;width:100%;font-family:inherit;font-size:13px}
-.products{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.product{display:flex;min-height:250px;background:#fff;border:1px solid var(--border);overflow:hidden;transition:.25s}.product:hover{border-color:#cfcfc8;transform:translateY(-3px)}.product-image{width:48%;min-height:250px;background:#f5f5f3;overflow:hidden;flex-shrink:0}.product-image img{width:100%;height:100%;object-fit:cover;display:block;transition:.5s}.product:hover .product-image img{transform:scale(1.04)}.product-info{padding:25px;display:flex;flex-direction:column;justify-content:center;flex:1}.product-category{color:var(--gold);text-transform:uppercase;letter-spacing:1.5px;font-size:9px;font-weight:700;margin-bottom:9px}.product-name{font-family:'Playfair Display',serif;font-size:22px;margin-bottom:8px}.product-description{font-size:11px;color:#888;line-height:1.6;margin-bottom:14px}.product-price{font-weight:700;font-size:16px;margin-bottom:17px}.add-btn{border:1px solid var(--black);background:var(--black);color:white;padding:11px 14px;cursor:pointer;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;width:100%}.add-btn:hover{background:var(--gold);border-color:var(--gold)}
-.collection-banner{background:#111;color:white;padding:70px 7%;display:flex;justify-content:space-between;align-items:center;gap:30px}.collection-banner h2{font-family:'Playfair Display',serif;font-size:42px;font-weight:500}.collection-banner p{color:#aaa;max-width:500px;line-height:1.7;margin-top:10px}.collection-banner a{background:white;color:#111;padding:14px 23px;font-size:11px;font-weight:700;letter-spacing:1px;white-space:nowrap}
-footer{background:#f7f7f5;border-top:1px solid var(--border);padding:55px 5% 25px}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:45px}.footer-brand{font-family:'Playfair Display',serif;font-size:24px;margin-bottom:12px}.footer-brand span{color:var(--gold)}.footer-text{max-width:300px;color:#888;font-size:12px;line-height:1.7}.footer-column h4{font-size:12px;margin-bottom:16px}.footer-column a{display:block;font-size:11px;color:#777;margin-bottom:10px}.footer-bottom{border-top:1px solid #ddd;padding-top:20px;display:flex;justify-content:space-between;color:#999;font-size:10px}
-.overlay{position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:199;display:none}.overlay.show{display:block}.cart{position:fixed;z-index:200;top:0;right:-450px;width:min(430px,100%);height:100vh;background:#fff;box-shadow:-10px 0 35px rgba(0,0,0,.12);transition:.35s;display:flex;flex-direction:column}.cart.open{right:0}.cart-header{height:75px;padding:0 25px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}.cart-header h2{font-family:'Playfair Display',serif;font-size:24px}.close-cart{border:0;background:none;font-size:27px;cursor:pointer}.cart-items{flex:1;overflow:auto;padding:10px 25px}.cart-item{display:flex;justify-content:space-between;align-items:center;padding:18px 0;border-bottom:1px solid var(--border)}.cart-item-name{font-size:13px;font-weight:600}.cart-item-price{color:#777;font-size:12px;margin-top:5px}.remove-item{background:none;border:0;color:#b55;font-size:10px;cursor:pointer}.cart-bottom{padding:22px 25px;border-top:1px solid var(--border)}.total-row{display:flex;justify-content:space-between;font-weight:700;margin-bottom:18px}.order-input{width:100%;height:44px;border:1px solid var(--border);padding:0 12px;margin-bottom:8px;outline:0;font-family:inherit;font-size:12px}.whatsapp-btn{width:100%;height:47px;border:0;background:#25d366;color:white;font-weight:700;cursor:pointer;letter-spacing:.5px}.empty{grid-column:1/-1;text-align:center;padding:50px;color:#888}
-@media(max-width:800px){
-header{height:65px;padding:0 18px}.logo{font-size:17px}.nav{display:none}.hero{grid-template-columns:1fr}.hero-content{padding:60px 24px;text-align:center}.hero p{margin-left:auto;margin-right:auto}.hero-buttons{justify-content:center}.hero-image{height:390px}.features{grid-template-columns:repeat(2,1fr)}.feature:nth-child(2){border-right:0}.feature{border-bottom:1px solid var(--border)}section{padding:55px 18px}.section-title{font-size:31px}.section-head{display:block}.products{display:flex;flex-direction:column;gap:14px}.product{width:100%;min-height:145px;height:145px}.product-image{width:145px;min-height:145px;height:145px}.product-info{padding:14px}.product-category{font-size:8px;margin-bottom:5px}.product-name{font-size:17px;margin-bottom:5px}.product-description{font-size:9px;margin-bottom:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.product-price{font-size:13px;margin-bottom:7px}.add-btn{padding:8px 7px;font-size:8px}.collection-banner{display:block;padding:55px 24px}.collection-banner h2{font-size:34px}.collection-banner a{display:inline-block;margin-top:25px}.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}.footer-bottom{display:block}.footer-bottom span{display:block;margin-top:8px}}
-@media(max-width:430px){.product-image{width:125px;min-width:125px}.product-info{padding:11px}.product-name{font-size:15px}.header-actions .icon-btn:first-child{display:none}}
+
+/* =====================================================
+   GLOBAL
+===================================================== */
+
+:root{
+    --black:#111111;
+    --gray:#6b6b6b;
+    --light:#f7f7f5;
+    --border:#e7e7e4;
+    --white:#ffffff;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:"DM Sans",sans-serif;
+    background:#fff;
+    color:var(--black);
+}
+
+button,
+input{
+    font-family:inherit;
+}
+
+button{
+    cursor:pointer;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+
+/* =====================================================
+   TOP BAR
+===================================================== */
+
+.topbar{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:9px 15px;
+    font-size:11px;
+    letter-spacing:.6px;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:rgba(255,255,255,.96);
+    backdrop-filter:blur(15px);
+    border-bottom:1px solid var(--border);
+}
+
+.nav{
+    max-width:1250px;
+    height:78px;
+    margin:auto;
+    padding:0 25px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo{
+    font-family:"Playfair Display",serif;
+    font-size:24px;
+    letter-spacing:2px;
+    font-weight:600;
+}
+
+.logo span{
+    display:block;
+    text-align:center;
+
+    font-family:"DM Sans",sans-serif;
+    font-size:9px;
+    letter-spacing:4px;
+
+    color:#777;
+    margin-top:-3px;
+}
+
+.nav-links{
+    display:flex;
+    gap:30px;
+    font-size:13px;
+}
+
+.nav-links a{
+    position:relative;
+}
+
+.nav-links a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+
+    width:0;
+    height:1px;
+
+    background:#111;
+
+    transition:.3s;
+}
+
+.nav-links a:hover::after{
+    width:100%;
+}
+
+.nav-icons{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.icon-btn{
+    position:relative;
+
+    border:0;
+    background:none;
+
+    font-size:20px;
+}
+
+.cart-count{
+    position:absolute;
+
+    right:-8px;
+    top:-8px;
+
+    width:17px;
+    height:17px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#111;
+    color:white;
+
+    font-size:9px;
+}
+
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.hero{
+    background:#f4f4f1;
+}
+
+.hero-inner{
+    max-width:1250px;
+    min-height:590px;
+
+    margin:auto;
+    padding:70px 25px;
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+
+    align-items:center;
+}
+
+.hero-small{
+    margin-bottom:18px;
+
+    color:#777;
+
+    font-size:10px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+
+.hero h1{
+    margin-bottom:25px;
+
+    font-family:"Playfair Display",serif;
+
+    font-size:clamp(48px,6vw,78px);
+    line-height:1;
+
+    font-weight:500;
+}
+
+.hero h1 em{
+    font-style:italic;
+}
+
+.hero-text{
+    max-width:500px;
+
+    color:#666;
+
+    font-size:15px;
+    line-height:1.8;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:12px;
+
+    margin-top:32px;
+}
+
+.btn{
+    display:inline-block;
+
+    padding:15px 26px;
+
+    border:1px solid #111;
+
+    font-size:12px;
+
+    transition:.25s;
+}
+
+.btn-dark{
+    background:#111;
+    color:white;
+}
+
+.btn-dark:hover{
+    background:#333;
+}
+
+.btn-light{
+    background:white;
+}
+
+.btn-light:hover{
+    background:#eee;
+}
+
+.hero-image{
+    height:450px;
+}
+
+.hero-image img{
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+}
+
+
+/* =====================================================
+   TRUST
+===================================================== */
+
+.trust{
+    border-top:1px solid var(--border);
+    border-bottom:1px solid var(--border);
+}
+
+.trust-inner{
+    max-width:1200px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+}
+
+.trust-item{
+    padding:25px 15px;
+
+    text-align:center;
+
+    border-right:1px solid var(--border);
+}
+
+.trust-item:last-child{
+    border-right:0;
+}
+
+.trust-icon{
+    margin-bottom:7px;
+    font-size:20px;
+}
+
+.trust-title{
+    font-size:12px;
+    font-weight:700;
+}
+
+.trust-text{
+    margin-top:4px;
+
+    color:#888;
+
+    font-size:10px;
+}
+
+
+/* =====================================================
+   SECTIONS
+===================================================== */
+
+.section{
+    max-width:1250px;
+
+    margin:auto;
+
+    padding:90px 25px;
+}
+
+.section-head{
+    display:flex;
+    align-items:end;
+    justify-content:space-between;
+
+    margin-bottom:35px;
+}
+
+.section-label{
+    margin-bottom:8px;
+
+    color:#888;
+
+    font-size:10px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+
+.section-title{
+    font-family:"Playfair Display",serif;
+
+    font-size:40px;
+    font-weight:500;
+}
+
+.view-all{
+    padding-bottom:4px;
+
+    border-bottom:1px solid #111;
+
+    font-size:12px;
+}
+
+
+/* =====================================================
+   CATEGORIES
+===================================================== */
+
+.categories{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:12px;
+}
+
+.category{
+    height:230px;
+
+    position:relative;
+
+    overflow:hidden;
+
+    background:#eee;
+}
+
+.category img{
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.5s;
+}
+
+.category:hover img{
+    transform:scale(1.06);
+}
+
+.category-overlay{
+    position:absolute;
+    inset:0;
+
+    display:flex;
+    align-items:end;
+
+    padding:22px;
+
+    color:white;
+
+    background:linear-gradient(
+        transparent,
+        rgba(0,0,0,.7)
+    );
+}
+
+.category-name{
+    font-family:"Playfair Display",serif;
+    font-size:25px;
+}
+
+
+/* =====================================================
+   SEARCH
+===================================================== */
+
+.shop-tools{
+    display:flex;
+    gap:10px;
+
+    margin-bottom:30px;
+}
+
+.search-box{
+    flex:1;
+
+    padding:15px 18px;
+
+    border:1px solid var(--border);
+
+    outline:none;
+
+    background:#fafafa;
+
+    font-size:13px;
+}
+
+.search-box:focus{
+    border-color:#111;
+}
+
+.filter-btn{
+    padding:0 20px;
+
+    border:1px solid var(--border);
+
+    background:white;
+
+    font-size:12px;
+}
+
+
+/* =====================================================
+   PRODUCTS
+===================================================== */
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+
+    gap:15px;
+}
+
+.product{
+    position:relative;
+
+    overflow:hidden;
+
+    border:1px solid var(--border);
+
+    background:white;
+
+    transition:.3s;
+}
+
+.product:hover{
+    transform:translateY(-4px);
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,.07);
+}
+
+.product-image{
+    height:290px;
+
+    position:relative;
+
+    overflow:hidden;
+
+    background:#f5f5f3;
+}
+
+.product-image img{
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.5s;
+}
+
+.product:hover .product-image img{
+    transform:scale(1.04);
+}
+
+.badge{
+    position:absolute;
+
+    left:12px;
+    top:12px;
+
+    z-index:2;
+
+    padding:6px 9px;
+
+    background:#111;
+    color:white;
+
+    font-size:8px;
+
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+.product-info{
+    padding:18px;
+}
+
+.brand{
+    margin-bottom:5px;
+
+    color:#999;
+
+    font-size:9px;
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+}
+
+.product-name{
+    margin-bottom:7px;
+
+    font-family:"Playfair Display",serif;
+
+    font-size:20px;
+}
+
+.notes{
+    min-height:30px;
+
+    color:#777;
+
+    font-size:10px;
+}
+
+.sizes{
+    display:flex;
+    gap:6px;
+
+    margin:14px 0;
+}
+
+.size{
+    padding:7px 12px;
+
+    border:1px solid #ddd;
+
+    background:white;
+
+    font-size:10px;
+}
+
+.size.active{
+    border-color:#111;
+
+    background:#111;
+    color:white;
+}
+
+.product-bottom{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.price{
+    font-size:14px;
+    font-weight:700;
+}
+
+.add-btn{
+    padding:10px 14px;
+
+    border:1px solid #111;
+
+    background:#111;
+    color:white;
+
+    font-size:10px;
+}
+
+.add-btn:hover{
+    background:#333;
+}
+
+
+/* =====================================================
+   DISCOVERY
+===================================================== */
+
+.discovery{
+    background:#f5f4f0;
+}
+
+.discovery-inner{
+    max-width:1250px;
+
+    margin:auto;
+    padding:90px 25px;
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+
+    gap:60px;
+
+    align-items:center;
+}
+
+.discovery-img{
+    height:430px;
+}
+
+.discovery-img img{
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+}
+
+.discovery-content .section-title{
+    font-size:50px;
+}
+
+.discovery-content p{
+    max-width:500px;
+
+    margin:20px 0;
+
+    color:#666;
+
+    line-height:1.8;
+}
+
+.format-list{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+
+    margin-bottom:25px;
+}
+
+.format{
+    padding:10px 15px;
+
+    border:1px solid #ddd;
+
+    background:white;
+
+    font-size:11px;
+}
+
+
+/* =====================================================
+   ABOUT
+===================================================== */
+
+.about{
+    max-width:850px;
+
+    margin:auto;
+    padding:100px 25px;
+
+    text-align:center;
+}
+
+.about .section-title{
+    font-size:48px;
+}
+
+.about p{
+    margin-top:20px;
+
+    color:#666;
+
+    line-height:1.9;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+footer{
+    padding:65px 25px 25px;
+
+    background:#111;
+    color:white;
+}
+
+.footer-inner{
+    max-width:1200px;
+
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 1fr;
+
+    gap:50px;
+}
+
+.footer-logo{
+    font-family:"Playfair Display",serif;
+
+    font-size:28px;
+    letter-spacing:2px;
+}
+
+.footer-desc{
+    max-width:350px;
+
+    margin-top:15px;
+
+    color:#aaa;
+
+    font-size:12px;
+    line-height:1.7;
+}
+
+.footer-title{
+    margin-bottom:18px;
+
+    font-size:11px;
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+}
+
+.footer-links{
+    display:flex;
+    flex-direction:column;
+
+    gap:10px;
+
+    color:#aaa;
+
+    font-size:12px;
+}
+
+.footer-links a:hover{
+    color:white;
+}
+
+.footer-bottom{
+    max-width:1200px;
+
+    margin:50px auto 0;
+
+    padding-top:20px;
+
+    border-top:1px solid #333;
+
+    display:flex;
+    justify-content:space-between;
+
+    color:#777;
+
+    font-size:10px;
+}
+
+
+/* =====================================================
+   CART
+===================================================== */
+
+.cart-overlay{
+    position:fixed;
+    inset:0;
+
+    z-index:2000;
+
+    visibility:hidden;
+    opacity:0;
+
+    background:rgba(0,0,0,.4);
+
+    transition:.3s;
+}
+
+.cart-overlay.open{
+    visibility:visible;
+    opacity:1;
+}
+
+.cart{
+    width:min(430px,100%);
+    height:100%;
+
+    position:absolute;
+    right:0;
+    top:0;
+
+    padding:25px;
+
+    display:flex;
+    flex-direction:column;
+
+    background:white;
+
+    transform:translateX(100%);
+
+    transition:.35s;
+}
+
+.cart-overlay.open .cart{
+    transform:translateX(0);
+}
+
+.cart-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding-bottom:20px;
+
+    border-bottom:1px solid var(--border);
+}
+
+.cart-head h2{
+    font-family:"Playfair Display",serif;
+    font-weight:500;
+}
+
+.close-cart{
+    border:0;
+    background:none;
+
+    font-size:25px;
+}
+
+.cart-items{
+    flex:1;
+
+    overflow:auto;
+
+    padding:20px 0;
+}
+
+.empty{
+    margin-top:80px;
+
+    text-align:center;
+
+    color:#888;
+
+    font-size:13px;
+}
+
+.cart-item{
+    display:flex;
+    gap:12px;
+
+    padding:14px 0;
+
+    border-bottom:1px solid #eee;
+}
+
+.cart-item img{
+    width:65px;
+    height:75px;
+
+    object-fit:cover;
+
+    background:#f4f4f4;
+}
+
+.cart-item-info{
+    flex:1;
+}
+
+.cart-item-name{
+    font-family:"Playfair Display",serif;
+}
+
+.cart-item-size{
+    margin-top:4px;
+
+    color:#888;
+
+    font-size:10px;
+}
+
+.cart-item-price{
+    margin-top:7px;
+
+    font-size:12px;
+    font-weight:700;
+}
+
+.remove{
+    border:0;
+    background:none;
+
+    color:#999;
+
+    font-size:10px;
+}
+
+.cart-footer{
+    padding-top:20px;
+
+    border-top:1px solid var(--border);
+}
+
+.total{
+    display:flex;
+    justify-content:space-between;
+
+    margin-bottom:15px;
+
+    font-weight:700;
+}
+
+.checkout{
+    width:100%;
+
+    padding:17px;
+
+    border:0;
+
+    background:#111;
+    color:white;
+
+    font-size:12px;
+}
+
+.checkout:hover{
+    background:#333;
+}
+
+
+/* =====================================================
+   WHATSAPP
+===================================================== */
+
+.whatsapp{
+    position:fixed;
+
+    right:20px;
+    bottom:20px;
+
+    z-index:900;
+
+    width:53px;
+    height:53px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#25D366;
+    color:white;
+
+    font-size:25px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.2);
+
+    transition:.25s;
+}
+
+.whatsapp:hover{
+    transform:scale(1.08);
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media(max-width:900px){
+
+    .nav-links{
+        display:none;
+    }
+
+    .hero-inner{
+        grid-template-columns:1fr;
+    }
+
+    .hero-image{
+        height:350px;
+    }
+
+    .trust-inner{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .trust-item:nth-child(2){
+        border-right:0;
+    }
+
+    .trust-item:nth-child(-n+2){
+        border-bottom:1px solid var(--border);
+    }
+
+    .categories{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .products{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .discovery-inner{
+        grid-template-columns:1fr;
+    }
+
+    .footer-inner{
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+
+@media(max-width:600px){
+
+    .topbar{
+        font-size:9px;
+    }
+
+    .nav{
+        height:65px;
+        padding:0 16px;
+    }
+
+    .logo{
+        font-size:19px;
+    }
+
+    .hero-inner{
+        padding:55px 18px;
+    }
+
+    .hero h1{
+        font-size:48px;
+    }
+
+    .hero-image{
+        height:300px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+    }
+
+    .btn{
+        text-align:center;
+    }
+
+    .section{
+        padding:65px 16px;
+    }
+
+    .section-title{
+        font-size:32px;
+    }
+
+    .categories{
+        gap:8px;
+    }
+
+    .category{
+        height:175px;
+    }
+
+    .category-name{
+        font-size:20px;
+    }
+
+    .products{
+        grid-template-columns:1fr 1fr;
+        gap:8px;
+    }
+
+    .product-image{
+        height:205px;
+    }
+
+    .product-info{
+        padding:12px;
+    }
+
+    .product-name{
+        font-size:17px;
+    }
+
+    .notes{
+        font-size:9px;
+    }
+
+    .sizes{
+        gap:4px;
+    }
+
+    .size{
+        padding:6px 8px;
+    }
+
+    .add-btn{
+        padding:8px 9px;
+    }
+
+    .shop-tools{
+        flex-direction:column;
+    }
+
+    .filter-btn{
+        padding:13px;
+    }
+
+    .discovery-inner{
+        padding:65px 16px;
+    }
+
+    .discovery-img{
+        height:300px;
+    }
+
+    .discovery-content .section-title{
+        font-size:38px;
+    }
+
+    .footer-inner{
+        grid-template-columns:1fr;
+        gap:35px;
+    }
+
+    .footer-bottom{
+        flex-direction:column;
+        gap:8px;
+    }
+}
+
 </style>
 </head>
+
+
 <body>
 
-<header>
-<a href="#" class="logo">GHITMED <span>JEWELRY</span></a>
-<nav class="nav"><a href="#shop">Shop</a><a href="#categories">Collections</a><a href="#about">À propos</a><a href="#contact">Contact</a></nav>
-<div class="header-actions">
-<button class="icon-btn" onclick="focusSearch()">🔍</button>
-<button class="icon-btn cart-button" onclick="openCart()">🛍️<span class="cart-number" id="count">0</span></button>
+
+<!-- =====================================================
+     TOP BAR
+===================================================== -->
+
+<div class="topbar">
+    ✦ Livraison partout au Maroc · Paiement à la livraison
 </div>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header>
+
+<div class="nav">
+
+<a href="#" class="logo">
+    GHIMED
+    <span>FRAGRANCES</span>
+</a>
+
+
+<nav class="nav-links">
+
+<a href="#shop">
+    Shop
+</a>
+
+<a href="#collections">
+    Collections
+</a>
+
+<a href="#discovery">
+    Discovery
+</a>
+
+<a href="#about">
+    À propos
+</a>
+
+</nav>
+
+
+<div class="nav-icons">
+
+<button
+class="icon-btn"
+onclick="focusSearch()"
+aria-label="Search">
+
+    ⌕
+
+</button>
+
+
+<button
+class="icon-btn"
+onclick="openCart()"
+aria-label="Cart">
+
+    ♡
+
+    <span
+    class="cart-count"
+    id="cartCount">
+
+        0
+
+    </span>
+
+</button>
+
+</div>
+
+</div>
+
 </header>
 
-<main>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
 <section class="hero">
-<div class="hero-content">
-<div class="eyebrow">GHITMED JEWELRY</div>
-<h1>Elegance<br><span>in every detail.</span></h1>
-<p>Découvrez notre sélection d'accessoires élégants, pensés pour accompagner votre style au quotidien.</p>
-<div class="hero-buttons"><a href="#shop" class="primary-btn">Découvrir la collection</a><a href="#categories" class="secondary-btn">Voir les catégories</a></div>
+
+<div class="hero-inner">
+
+
+<div>
+
+<div class="hero-small">
+    Authentic Fragrance · Decants
 </div>
-<div class="hero-image"></div>
+
+
+<h1>
+
+    Find your<br>
+
+    <em>signature scent.</em>
+
+</h1>
+
+
+<p class="hero-text">
+
+    Découvrez vos parfums préférés en formats
+    pratiques de 5ml et 10ml.
+
+    Testez, portez et trouvez votre parfum
+    signature avant de passer au flacon complet.
+
+</p>
+
+
+<div class="hero-buttons">
+
+<a
+href="#shop"
+class="btn btn-dark">
+
+    Découvrir les parfums
+
+</a>
+
+
+<a
+href="#discovery"
+class="btn btn-light">
+
+    Discovery Sets
+
+</a>
+
+</div>
+
+</div>
+
+
+
+<div class="hero-image">
+
+<img
+src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1000&q=85"
+alt="GHIMED Fragrances">
+
+</div>
+
+
+</div>
+
 </section>
 
-<div class="features">
-<div class="feature"><div class="feature-icon">🚚</div><h4>Livraison Maroc</h4><p>Partout au Maroc</p></div>
-<div class="feature"><div class="feature-icon">💵</div><h4>Paiement à la livraison</h4><p>Simple et sécurisé</p></div>
-<div class="feature"><div class="feature-icon">✨</div><h4>Style & qualité</h4><p>Pour chaque occasion</p></div>
-<div class="feature"><div class="feature-icon">💬</div><h4>Commande WhatsApp</h4><p>Rapide et facile</p></div>
+
+
+<!-- =====================================================
+     TRUST
+===================================================== -->
+
+<section class="trust">
+
+<div class="trust-inner">
+
+
+<div class="trust-item">
+
+<div class="trust-icon">
+    ✦
 </div>
 
-<section id="shop">
-<div class="section-head"><div><h2 class="section-title">Nos produits</h2><p class="section-subtitle">Découvrez nos dernières pièces.</p></div></div>
+<div class="trust-title">
+    Parfums originaux
+</div>
 
-<div class="search-box" id="searchBox"><span>🔍</span><input id="search" type="text" placeholder="Rechercher un produit..." oninput="renderProducts()"></div>
+<div class="trust-text">
+    Sélection soigneusement choisie
+</div>
 
-<div id="categories" class="categories">
-<button class="category active" onclick="filterCategory('Tous',this)">Tous</button>
-<button class="category" onclick="filterCategory('Bracelets',this)">Bracelets</button>
-<button class="category" onclick="filterCategory('Colliers',this)">Colliers</button>
-<button class="category" onclick="filterCategory('Bagues',this)">Bagues</button>
-<button class="category" onclick="filterCategory('Sets',this)">Sets</button>
-</div><br><br>
-<div class="products" id="products"></div>
+</div>
+
+
+<div class="trust-item">
+
+<div class="trust-icon">
+    ◌
+</div>
+
+<div class="trust-title">
+    5ml / 10ml
+</div>
+
+<div class="trust-text">
+    Choisissez votre format
+</div>
+
+</div>
+
+
+<div class="trust-item">
+
+<div class="trust-icon">
+    ⌁
+</div>
+
+<div class="trust-title">
+    Livraison Maroc
+</div>
+
+<div class="trust-text">
+    Toutes les villes
+</div>
+
+</div>
+
+
+<div class="trust-item">
+
+<div class="trust-icon">
+    ✓
+</div>
+
+<div class="trust-title">
+    Paiement à la livraison
+</div>
+
+<div class="trust-text">
+    Simple & sécurisé
+</div>
+
+</div>
+
+
+</div>
+
 </section>
 
-<section id="about" style="padding-top:0">
-<div class="collection-banner">
-<div><h2>Your style.<br>Your story.</h2><p>GHITMED JEWELRY vous propose des accessoires élégants pour donner une touche unique à votre style.</p></div>
-<a href="#shop">SHOP NOW</a>
-</div>
-</section>
-</main>
 
-<footer id="contact">
-<div class="footer-grid">
-<div><div class="footer-brand">GHITMED <span>JEWELRY</span></div><p class="footer-text">Des accessoires élégants pour compléter votre style. Livraison partout au Maroc.</p></div>
-<div class="footer-column"><h4>SHOP</h4><a href="#shop">Tous les produits</a><a href="#categories">Bracelets</a><a href="#categories">Colliers</a><a href="#categories">Bagues</a></div>
-<div class="footer-column"><h4>INFORMATION</h4><a href="#about">À propos</a><a href="#contact">Contact</a><a href="#shop">Livraison</a></div>
-<div class="footer-column"><h4>CONTACT</h4><a href="https://wa.me/212708773118" target="_blank">WhatsApp</a><a href="https://instagram.com/" target="_blank">Instagram</a></div>
+
+<!-- =====================================================
+     COLLECTIONS
+===================================================== -->
+
+<section
+class="section"
+id="collections">
+
+
+<div class="section-head">
+
+<div>
+
+<div class="section-label">
+    Explore
 </div>
-<div class="footer-bottom"><span>© 2026 GHITMED JEWELRY</span><span>Made with elegance.</span></div>
+
+<h2 class="section-title">
+    Shop by mood
+</h2>
+
+</div>
+
+
+<a
+href="#shop"
+class="view-all">
+
+    Voir tout →
+
+</a>
+
+</div>
+
+
+
+<div class="categories">
+
+
+<a
+href="#shop"
+class="category">
+
+<img
+src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=85"
+alt="For Him">
+
+<div class="category-overlay">
+
+<div class="category-name">
+    For Him
+</div>
+
+</div>
+
+</a>
+
+
+
+<a
+href="#shop"
+class="category">
+
+<img
+src="https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=800&q=85"
+alt="For Her">
+
+<div class="category-overlay">
+
+<div class="category-name">
+    For Her
+</div>
+
+</div>
+
+</a>
+
+
+
+<a
+href="#shop"
+class="category">
+
+<img
+src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=800&q=85"
+alt="Unisex">
+
+<div class="category-overlay">
+
+<div class="category-name">
+    Unisex
+</div>
+
+</div>
+
+</a>
+
+
+
+<a
+href="#shop"
+class="category">
+
+<img
+src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=85"
+alt="Luxury">
+
+<div class="category-overlay">
+
+<div class="category-name">
+    Luxury
+</div>
+
+</div>
+
+</a>
+
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SHOP
+===================================================== -->
+
+<section
+class="section"
+id="shop">
+
+
+<div class="section-head">
+
+<div>
+
+<div class="section-label">
+    Our collection
+</div>
+
+<h2 class="section-title">
+    Best Sellers
+</h2>
+
+</div>
+
+</div>
+
+
+
+<div class="shop-tools">
+
+<input
+id="searchInput"
+class="search-box"
+type="text"
+placeholder="Rechercher un parfum ou une marque..."
+oninput="searchProducts()">
+
+
+<button
+class="filter-btn"
+onclick="showAll()">
+
+    Tous les parfums
+
+</button>
+
+</div>
+
+
+
+<div
+class="products"
+id="products">
+
+</div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     DISCOVERY
+===================================================== -->
+
+<section
+class="discovery"
+id="discovery">
+
+
+<div class="discovery-inner">
+
+
+<div class="discovery-img">
+
+<img
+src="https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=1000&q=85"
+alt="Discovery">
+
+</div>
+
+
+
+<div class="discovery-content">
+
+
+<div class="section-label">
+    Find your fragrance
+</div>
+
+
+<h2 class="section-title">
+
+    Discover more.<br>
+
+    Spend less.
+
+</h2>
+
+
+<p>
+
+    Découvrez plusieurs fragrances en formats
+    5ml et 10ml avant de choisir votre prochain
+    parfum.
+
+</p>
+
+
+<div class="format-list">
+
+<div class="format">
+    5ml
+</div>
+
+<div class="format">
+    10ml
+</div>
+
+</div>
+
+
+<a
+href="#shop"
+class="btn btn-dark">
+
+    Explorer les parfums
+
+</a>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section
+class="about"
+id="about">
+
+
+<div class="section-label">
+    GHIMED FRAGRANCES
+</div>
+
+
+<h2 class="section-title">
+
+    The fragrance,<br>
+
+    your way.
+
+</h2>
+
+
+<p>
+
+    Chez GHIMED FRAGRANCES, nous croyons qu'un
+    parfum doit être découvert avant d'être adopté.
+
+    Nos decants vous permettent de découvrir
+    différentes fragrances en formats 5ml et 10ml,
+    simplement et à votre rythme.
+
+</p>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+
+<div class="footer-inner">
+
+
+<div>
+
+<div class="footer-logo">
+    GHIMED
+</div>
+
+<p class="footer-desc">
+
+    Authentic fragrance decants.
+
+    Découvrez votre prochaine
+    signature olfactive.
+
+</p>
+
+</div>
+
+
+
+<div>
+
+<div class="footer-title">
+    Shop
+</div>
+
+
+<div class="footer-links">
+
+<a href="#shop">
+    Best Sellers
+</a>
+
+<a href="#shop">
+    For Him
+</a>
+
+<a href="#shop">
+    For Her
+</a>
+
+<a href="#shop">
+    Unisex
+</a>
+
+</div>
+
+</div>
+
+
+
+<div>
+
+<div class="footer-title">
+    Information
+</div>
+
+
+<div class="footer-links">
+
+<a href="#">
+    Livraison
+</a>
+
+<a href="#">
+    Paiement
+</a>
+
+<a href="#">
+    FAQ
+</a>
+
+<a href="#about">
+    À propos
+</a>
+
+</div>
+
+</div>
+
+
+
+<div>
+
+<div class="footer-title">
+    Contact
+</div>
+
+
+<div class="footer-links">
+
+<a
+href="https://wa.me/212708773218"
+target="_blank">
+
+    WhatsApp
+</a>
+
+<a href="#">
+    Instagram
+</a>
+
+<a href="#">
+    TikTok
+</a>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+
+<div class="footer-bottom">
+
+<span>
+    © 2026 GHIMED FRAGRANCES
+</span>
+
+<span>
+    Authentic fragrance decants
+</span>
+
+</div>
+
+
 </footer>
 
-<div class="overlay" id="overlay" onclick="closeCart()"></div>
 
-<div class="cart" id="cart">
-<div class="cart-header"><h2>Votre panier</h2><button class="close-cart" onclick="closeCart()">×</button></div>
-<div class="cart-items" id="items"></div>
-<div class="cart-bottom">
-<div class="total-row"><span>Total</span><span><span id="total">0</span> DH</span></div>
-<input class="order-input" id="customer" placeholder="Votre nom">
-<input class="order-input" id="city" placeholder="Votre ville">
-<input class="order-input" id="address" placeholder="Votre adresse">
-<button class="whatsapp-btn" onclick="order()">💬 COMMANDER VIA WHATSAPP</button>
+
+<!-- =====================================================
+     CART
+===================================================== -->
+
+<div
+class="cart-overlay"
+id="cartOverlay"
+onclick="closeCartOutside(event)">
+
+
+<div class="cart">
+
+
+<div class="cart-head">
+
+<h2>
+    Your Bag
+</h2>
+
+
+<button
+class="close-cart"
+onclick="closeCart()">
+
+    ×
+
+</button>
+
 </div>
+
+
+
+<div
+class="cart-items"
+id="cartItems">
+
+<div class="empty">
+    Votre panier est vide.
 </div>
+
+</div>
+
+
+
+<div class="cart-footer">
+
+
+<div class="total">
+
+<span>
+    Total
+</span>
+
+<span id="cartTotal">
+    0 DH
+</span>
+
+</div>
+
+
+<button
+class="checkout"
+onclick="orderWhatsApp()">
+
+    Commander via WhatsApp
+
+</button>
+
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+<!-- =====================================================
+     FLOATING WHATSAPP
+===================================================== -->
+
+<a
+class="whatsapp"
+href="https://wa.me/212708773218"
+target="_blank"
+aria-label="WhatsApp">
+
+    ☎
+
+</a>
+
+
 
 <script>
-const products=[
-{name:"Bracelet Élégant",category:"Bracelets",description:"Un bracelet élégant et facile à porter.",price:99,image:"images/bracelet.jpg"},
-{name:"Collier Minimal",category:"Colliers",description:"Un collier minimaliste pour un style raffiné.",price:119,image:"images/collier.jpg"},
-{name:"Bague Élégante",category:"Bagues",description:"Une bague élégante pour compléter votre look.",price:89,image:"images/bague.jpg"},
-{name:"Set Bijoux",category:"Sets",description:"Un ensemble élégant pour une finition parfaite.",price:159,image:"images/set-bijoux.jpg"}
+
+
+/* =====================================================
+   PRODUCTS
+=====================================================
+
+   هنا غادي تبدل المنتجات ديالك.
+
+   لكل منتج:
+   - brand = الماركة
+   - name = اسم العطر
+   - notes = وصف مختصر
+   - image = رابط الصورة
+   - prices = ثمن 5ml و 10ml
+
+===================================================== */
+
+
+const products = [
+
+
+{
+    id:1,
+
+    brand:"Emporio Armani",
+
+    name:"Stronger With You",
+
+    notes:"Warm · Sweet · Vanilla",
+
+    image:
+    "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=700&q=85",
+
+    badge:"Best Seller",
+
+    prices:{
+        "5ml":65,
+        "10ml":120
+    }
+},
+
+
+
+{
+    id:2,
+
+    brand:"Creed",
+
+    name:"Aventus",
+
+    notes:"Fresh · Fruity · Woody",
+
+    image:
+    "https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&w=700&q=85",
+
+    badge:"Popular",
+
+    prices:{
+        "5ml":90,
+        "10ml":170
+    }
+},
+
+
+
+{
+    id:3,
+
+    brand:"Jean Paul Gaultier",
+
+    name:"Le Male Elixir",
+
+    notes:"Sweet · Amber · Vanilla",
+
+    image:
+    "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=700&q=85",
+
+    badge:"New",
+
+    prices:{
+        "5ml":65,
+        "10ml":120
+    }
+},
+
+
+
+{
+    id:4,
+
+    brand:"Dior",
+
+    name:"Sauvage Elixir",
+
+    notes:"Spicy · Woody · Powerful",
+
+    image:
+    "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=700&q=85",
+
+    badge:"Iconic",
+
+    prices:{
+        "5ml":80,
+        "10ml":150
+    }
+},
+
+
+
+{
+    id:5,
+
+    brand:"Parfums de Marly",
+
+    name:"Layton",
+
+    notes:"Apple · Vanilla · Woody",
+
+    image:
+    "https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=700&q=85",
+
+    badge:"Luxury",
+
+    prices:{
+        "5ml":95,
+        "10ml":180
+    }
+},
+
+
+
+{
+    id:6,
+
+    brand:"Tom Ford",
+
+    name:"Oud Wood",
+
+    notes:"Woody · Oud · Spicy",
+
+    image:
+    "https://images.unsplash.com/photo-1557170334-a9632e77c6e4?auto=format&fit=crop&w=700&q=85",
+
+    badge:"Premium",
+
+    prices:{
+        "5ml":85,
+        "10ml":160
+    }
+},
+
+
+
+{
+    id:7,
+
+    brand:"Afnan",
+
+    name:"9PM",
+
+    notes:"Sweet · Fruity · Amber",
+
+    image:
+    "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=700&q=85",
+
+    badge:"Hot",
+
+    prices:{
+        "5ml":45,
+        "10ml":80
+    }
+},
+
+
+
+{
+    id:8,
+
+    brand:"Yves Saint Laurent",
+
+    name:"Y EDP",
+
+    notes:"Fresh · Woody · Aromatic",
+
+    image:
+    "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=700&q=85",
+
+    badge:"Classic",
+
+    prices:{
+        "5ml":55,
+        "10ml":100
+    }
+}
+
 ];
 
-let selectedCategory="Tous";
-let cart=[];
 
-function renderProducts(){
-const container=document.getElementById("products");
-const search=document.getElementById("search").value.toLowerCase().trim();
-const filtered=products.filter(product=>{
-const matchesCategory=selectedCategory==="Tous"||product.category===selectedCategory;
-const matchesSearch=product.name.toLowerCase().includes(search)||product.category.toLowerCase().includes(search);
-return matchesCategory&&matchesSearch;
-});
-container.innerHTML="";
-if(!filtered.length){container.innerHTML='<div class="empty">Aucun produit trouvé.</div>';return;}
-filtered.forEach(product=>{
-container.innerHTML+=`
-<article class="product">
-<div class="product-image"><img src="${product.image}" alt="${product.name}" onerror="this.style.display='none';this.parentElement.innerHTML='<span style="margin:auto;color:#999;font-size:11px">Image non disponible</span>';"></div>
-<div class="product-info">
-<div class="product-category">${product.category}</div>
-<h3 class="product-name">${product.name}</h3>
-<p class="product-description">${product.description}</p>
-<div class="product-price">${product.price} DH</div>
-<button class="add-btn" onclick="addToCart(${products.indexOf(product)})">Ajouter au panier</button>
-</div>
-</article>`;
-});
+
+/* =====================================================
+   CART
+===================================================== */
+
+
+let cart = [];
+
+let selectedSizes = {};
+
+
+
+/* =====================================================
+   DISPLAY PRODUCTS
+===================================================== */
+
+
+function displayProducts(list = products){
+
+    const container =
+        document.getElementById("products");
+
+
+    container.innerHTML = "";
+
+
+    if(list.length === 0){
+
+        container.innerHTML = `
+
+            <p style="
+                grid-column:1/-1;
+                text-align:center;
+                color:#888;
+                padding:50px;
+            ">
+
+                Aucun parfum trouvé.
+
+            </p>
+
+        `;
+
+        return;
+    }
+
+
+    list.forEach(product => {
+
+
+        const selected =
+            selectedSizes[product.id] || "5ml";
+
+
+        container.innerHTML += `
+
+        <div class="product">
+
+
+            <div class="product-image">
+
+
+                ${
+                    product.badge
+
+                    ?
+
+                    `<div class="badge">
+                        ${product.badge}
+                    </div>`
+
+                    :
+
+                    ""
+                }
+
+
+                <img
+                src="${product.image}"
+                alt="${product.brand} ${product.name}">
+
+
+            </div>
+
+
+
+            <div class="product-info">
+
+
+                <div class="brand">
+
+                    ${product.brand}
+
+                </div>
+
+
+
+                <div class="product-name">
+
+                    ${product.name}
+
+                </div>
+
+
+
+                <div class="notes">
+
+                    ${product.notes}
+
+                </div>
+
+
+
+                <div class="sizes">
+
+
+                    ${
+                        Object.keys(product.prices)
+                        .map(size => `
+
+                            <button
+
+                            class="size ${
+                                selected === size
+                                ? "active"
+                                : ""
+                            }"
+
+                            onclick="
+                                selectSize(
+                                    ${product.id},
+                                    '${size}'
+                                )
+                            ">
+
+                                ${size}
+
+                            </button>
+
+                        `)
+                        .join("")
+                    }
+
+
+                </div>
+
+
+
+                <div class="product-bottom">
+
+
+                    <div class="price">
+
+                        ${product.prices[selected]} DH
+
+                    </div>
+
+
+                    <button
+                    class="add-btn"
+                    onclick="
+                        addToCart(${product.id})
+                    ">
+
+                        Ajouter
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        `;
+
+    });
+
 }
 
-function filterCategory(category,button){
-selectedCategory=category;
-document.querySelectorAll(".category").forEach(btn=>btn.classList.remove("active"));
-button.classList.add("active");
-renderProducts();
+
+
+/* =====================================================
+   SELECT SIZE
+===================================================== */
+
+
+function selectSize(id,size){
+
+    selectedSizes[id] = size;
+
+    displayProducts();
+
 }
 
-function focusSearch(){
-document.getElementById("search").focus();
-document.getElementById("searchBox").scrollIntoView({behavior:"smooth",block:"center"});
+
+
+/* =====================================================
+   ADD TO CART
+===================================================== */
+
+
+function addToCart(id){
+
+    const product =
+        products.find(p => p.id === id);
+
+
+    const size =
+        selectedSizes[id] || "5ml";
+
+
+    const existing =
+        cart.find(
+            item =>
+            item.id === id &&
+            item.size === size
+        );
+
+
+    if(existing){
+
+        existing.quantity++;
+
+    }
+
+    else{
+
+        cart.push({
+
+            id:id,
+
+            size:size,
+
+            quantity:1
+
+        });
+
+    }
+
+
+    updateCart();
+
+    openCart();
+
 }
 
-function addToCart(index){
-const product=products[index];
-cart.push({name:product.name,price:product.price});
-updateCart();openCart();
-}
 
-function removeItem(index){cart.splice(index,1);updateCart();}
+
+/* =====================================================
+   UPDATE CART
+===================================================== */
+
 
 function updateCart(){
-const items=document.getElementById("items");
-items.innerHTML="";
-let total=0;
-cart.forEach((item,index)=>{
-total+=item.price;
-items.innerHTML+=`<div class="cart-item"><div><div class="cart-item-name">${item.name}</div><div class="cart-item-price">${item.price} DH</div></div><button class="remove-item" onclick="removeItem(${index})">Supprimer</button></div>`;
-});
-if(!cart.length)items.innerHTML='<div style="text-align:center;padding:60px 10px;color:#999;font-size:13px">Votre panier est vide.</div>';
-document.getElementById("total").textContent=total;
-document.getElementById("count").textContent=cart.length;
+
+
+    const count =
+        cart.reduce(
+            (sum,item) =>
+            sum + item.quantity,
+            0
+        );
+
+
+    document.getElementById(
+        "cartCount"
+    ).textContent = count;
+
+
+
+    const container =
+        document.getElementById(
+            "cartItems"
+        );
+
+
+    if(cart.length === 0){
+
+        container.innerHTML = `
+
+            <div class="empty">
+
+                Votre panier est vide.
+
+            </div>
+
+        `;
+
+
+        document.getElementById(
+            "cartTotal"
+        ).textContent = "0 DH";
+
+
+        return;
+    }
+
+
+
+    let total = 0;
+
+
+
+    container.innerHTML =
+
+        cart.map(
+            (item,index) => {
+
+
+                const product =
+                    products.find(
+                        p => p.id === item.id
+                    );
+
+
+                const price =
+                    product.prices[item.size];
+
+
+                total +=
+                    price * item.quantity;
+
+
+
+                return `
+
+                <div class="cart-item">
+
+
+                    <img
+                    src="${product.image}"
+                    alt="${product.name}">
+
+
+                    <div class="cart-item-info">
+
+
+                        <div class="cart-item-name">
+
+                            ${product.name}
+
+                        </div>
+
+
+                        <div class="cart-item-size">
+
+                            ${item.size}
+                            · Quantité
+                            ${item.quantity}
+
+                        </div>
+
+
+                        <div class="cart-item-price">
+
+                            ${price * item.quantity} DH
+
+                        </div>
+
+
+                    </div>
+
+
+                    <button
+                    class="remove"
+                    onclick="
+                        removeItem(${index})
+                    ">
+
+                        Supprimer
+
+                    </button>
+
+
+                </div>
+
+                `;
+
+            }
+        ).join("");
+
+
+    document.getElementById(
+        "cartTotal"
+    ).textContent =
+        total + " DH";
+
 }
+
+
+
+/* =====================================================
+   REMOVE ITEM
+===================================================== */
+
+
+function removeItem(index){
+
+    cart.splice(index,1);
+
+    updateCart();
+
+}
+
+
+
+/* =====================================================
+   OPEN CART
+===================================================== */
+
 
 function openCart(){
-document.getElementById("cart").classList.add("open");
-document.getElementById("overlay").classList.add("show");
+
+    document
+        .getElementById("cartOverlay")
+        .classList.add("open");
+
+
+    document.body.style.overflow =
+        "hidden";
+
 }
+
+
+
+/* =====================================================
+   CLOSE CART
+===================================================== */
+
 
 function closeCart(){
-document.getElementById("cart").classList.remove("open");
-document.getElementById("overlay").classList.remove("show");
+
+    document
+        .getElementById("cartOverlay")
+        .classList.remove("open");
+
+
+    document.body.style.overflow =
+        "";
+
 }
 
-function order(){
-if(!cart.length){alert("Votre panier est vide.");return;}
-const name=document.getElementById("customer").value.trim()||"Non renseigné";
-const city=document.getElementById("city").value.trim()||"Non renseignée";
-const address=document.getElementById("address").value.trim()||"Non renseignée";
-const total=cart.reduce((sum,item)=>sum+item.price,0);
-let message="Bonjour GHITMED JEWELRY,%0A%0AJe souhaite commander :%0A%0A";
-cart.forEach(item=>{message+="• "+encodeURIComponent(item.name)+" — "+item.price+" DH%0A";});
-message+="%0ATotal : "+total+" DH%0APaiement : à la livraison%0ANom : "+encodeURIComponent(name)+"%0AVille : "+encodeURIComponent(city)+"%0AAdresse : "+encodeURIComponent(address);
-window.open("https://wa.me/212708773118?text="+message,"_blank");
+
+
+/* =====================================================
+   CLOSE CART OUTSIDE
+===================================================== */
+
+
+function closeCartOutside(event){
+
+    if(
+        event.target.id ===
+        "cartOverlay"
+    ){
+
+        closeCart();
+
+    }
+
 }
 
-renderProducts();
+
+
+/* =====================================================
+   SEARCH
+===================================================== */
+
+
+function searchProducts(){
+
+
+    const query =
+
+        document
+        .getElementById("searchInput")
+        .value
+        .toLowerCase()
+        .trim();
+
+
+    const filtered =
+
+        products.filter(product =>
+
+            product.name
+            .toLowerCase()
+            .includes(query)
+
+            ||
+
+            product.brand
+            .toLowerCase()
+            .includes(query)
+
+            ||
+
+            product.notes
+            .toLowerCase()
+            .includes(query)
+
+        );
+
+
+    displayProducts(filtered);
+
+}
+
+
+
+/* =====================================================
+   SHOW ALL
+===================================================== */
+
+
+function showAll(){
+
+    document.getElementById(
+        "searchInput"
+    ).value = "";
+
+    displayProducts();
+
+}
+
+
+
+/* =====================================================
+   SEARCH FOCUS
+===================================================== */
+
+
+function focusSearch(){
+
+    document
+        .getElementById("shop")
+        .scrollIntoView();
+
+
+    setTimeout(() => {
+
+        document
+            .getElementById("searchInput")
+            .focus();
+
+    },400);
+
+}
+
+
+
+/* =====================================================
+   WHATSAPP ORDER
+===================================================== */
+
+
+function orderWhatsApp(){
+
+
+    if(cart.length === 0){
+
+        alert(
+            "Votre panier est vide."
+        );
+
+        return;
+
+    }
+
+
+    let message =
+
+        "Bonjour GHIMED FRAGRANCES 👋\n\n" +
+
+        "Je souhaite commander :\n\n";
+
+
+    let total = 0;
+
+
+
+    cart.forEach(item => {
+
+
+        const product =
+            products.find(
+                p => p.id === item.id
+            );
+
+
+        const price =
+            product.prices[item.size];
+
+
+        total +=
+            price * item.quantity;
+
+
+
+        message +=
+
+            "• " +
+
+            product.name +
+
+            " — " +
+
+            item.size +
+
+            " × " +
+
+            item.quantity +
+
+            " — " +
+
+            (
+                price *
+                item.quantity
+            ) +
+
+            " DH\n";
+
+    });
+
+
+
+    message +=
+
+        "\n💰 Total : " +
+
+        total +
+
+        " DH\n\n" +
+
+        "📍 Ville :\n" +
+
+        "📞 Téléphone :";
+
+
+
+    const whatsappNumber =
+        "212708773218";
+
+
+    window.open(
+
+        "https://wa.me/" +
+        whatsappNumber +
+        "?text=" +
+        encodeURIComponent(message),
+
+        "_blank"
+
+    );
+
+}
+
+
+
+/* =====================================================
+   START
+===================================================== */
+
+
+displayProducts();
+
 updateCart();
+
+
 </script>
+
 </body>
 </html>
